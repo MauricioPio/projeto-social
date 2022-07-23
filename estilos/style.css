@@ -28,7 +28,7 @@ main {
     position: relative;
     top: 20px;
     left: 220px;
-    z-index: 100;
+    z-index: 10;
 }
 
 section#telefone {
@@ -43,11 +43,11 @@ section#telefone {
 
 iframe#tela {
     position: relative;
-    top: 0px;
+    top: -11px;
     left: 6.5px;
-    width: 275px;
+    width: 276px;
     height: 585px;
-    border-radius: 20px;   
+    border-radius: 20px;  
 }
 
 section#redes-sociais {
@@ -60,8 +60,7 @@ section#redes-sociais img {
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 
 section#redes-sociais img:hover { 
